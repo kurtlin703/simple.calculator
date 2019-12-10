@@ -1,23 +1,23 @@
 function add() {
-	var sum = 0
-	for (var i = 0; i <arguments.length; i++) {
-		sum+= arguments[i];
+	let results = 0
+	for (let i = 0; i <arguments.length; i++) {
+		results += arguments[i];
 		
 	}
- return sum
+ return results
 }
 
 
 
 function multiply() {
-	var sum = 1;
-	for (var i = 0; i <arguments.length; i++) {
-		sum *= arguments[i];
+	let results = 1;
+	for (let i = 0; i <arguments.length; i++) {
+		results *= arguments[i];
 		
 
 	}
- return sum
-ls}
+ return results
+}
 
 module.exports = {
     add, multiply
