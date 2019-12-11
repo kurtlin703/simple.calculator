@@ -1,0 +1,12 @@
+{
+    "name": "spec",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine simple_calculator_spec.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
